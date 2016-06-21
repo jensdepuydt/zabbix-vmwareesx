@@ -341,7 +341,7 @@
                     <publickey/>
                     <privatekey/>
                     <port>{$SNMP_PORT}</port>
-                    <filter>{#SNMPVALUE}:^/vmfs/volumes/[a-z,A-Z]</filter>
+                    <filter>{#SNMPVALUE}:^/vmfs/volumes/[a-z,A-Z,0-9]</filter>
                     <lifetime>30</lifetime>
                     <description/>
                     <item_prototypes>
